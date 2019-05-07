@@ -25,7 +25,6 @@ public class NotificationFactory {
         if (service.equals("email")) {
             return email;
         } else if (service.equals("sms")) {
-            System.out.println(service);
             return sms;
         } else {
             return null;
