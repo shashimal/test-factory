@@ -1,10 +1,9 @@
 package com.duleendra.testfactory.factory;
 
-import com.duleendra.testfactory.service.Email;
-import com.duleendra.testfactory.service.Notificaition;
-import com.duleendra.testfactory.service.SMS;
+import com.duleendra.testfactory.service.notification.Email;
+import com.duleendra.testfactory.service.notification.Notificaition;
+import com.duleendra.testfactory.service.notification.SMS;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,5 +1,6 @@
-package com.duleendra.testfactory.service;
+package com.duleendra.testfactory.service.notification;
 
+import com.duleendra.testfactory.service.OtherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
