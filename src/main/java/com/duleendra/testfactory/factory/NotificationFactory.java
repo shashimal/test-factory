@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class NotificationFactory {
 
-    private final Email email;
-    private final SMS sms;
+    private  Email email;
+    private  SMS sms;
 
     @Autowired
     public NotificationFactory(Email email, SMS sms) {
